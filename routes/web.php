@@ -28,5 +28,3 @@ Route::middleware(['auth', 'verified'])->group(function () {
 Route::get("saludo", function(){
     return "Hola visitante";
 })->middleware(['auth']);
-
-
